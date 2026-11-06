@@ -31,6 +31,21 @@ fixed threshold survives both.
 windows, not just a ledger. Built because the existing apps assume a billing model that
 doesn't match.
 
+### Open source
+
+**105 merged pull requests across 37 projects.** Mostly small, focused fixes for edge cases in widely used tools.
+
+| Project | Merged | What kind of fixes |
+| --- | --- | --- |
+| [diyHue](https://github.com/diyhue/diyHue/pulls?q=is%3Apr+author%3APharex38+is%3Amerged) | 26 | Light integrations (ESPHome, WLED, Tasmota, Govee, Yeelight, Home Assistant), colour/brightness range mapping, rules and schedules |
+| [i18next ecosystem](https://github.com/search?q=author%3APharex38+is%3Apr+is%3Amerged+org%3Ai18next+org%3Alocize&type=pullrequests) | 18 | i18next, react-i18next, next-i18next, i18next-cli and locize format converters: escaping, plural merging, language matching |
+| [svglib](https://github.com/deeplook/svglib/pulls?q=is%3Apr+author%3APharex38+is%3Amerged) · [ApexCharts](https://github.com/apexcharts/apexcharts.js/pulls?q=is%3Apr+author%3APharex38+is%3Amerged) · [snapdom](https://github.com/zumerlab/snapdom/pulls?q=is%3Apr+author%3APharex38+is%3Amerged) | 12 | Rendering and parsing edge cases |
+| [Violentmonkey](https://github.com/violentmonkey/violentmonkey/pulls?q=is%3Apr+author%3APharex38+is%3Amerged) · [Stylus](https://github.com/openstyles/stylus/pulls?q=is%3Apr+author%3APharex38+is%3Amerged) | 6 | Date tokens across DST, `@match` ports, colour picker units |
+| [Compiler Explorer](https://github.com/compiler-explorer/compiler-explorer/pulls?q=is%3Apr+author%3APharex38+is%3Amerged) · [SchemaStore](https://github.com/SchemaStore/schemastore/pulls?q=is%3Apr+author%3APharex38+is%3Amerged) · [Sub-Store](https://github.com/sub-store-org/Sub-Store/pulls?q=is%3Apr+author%3APharex38+is%3Amerged) | 9 | IP anonymisation, config schemas, proxy URI encoding |
+
+Also merged in NVIDIA NeMo, electerm, mitmproxy, node-redis, Effect, pion/webrtc and others —
+[full list](https://github.com/search?q=author%3APharex38+is%3Apr+is%3Amerged&type=pullrequests).
+
 ### Currently
 
 Working through industrial control and power generation systems, and looking for remote
